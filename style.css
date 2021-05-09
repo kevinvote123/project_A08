@@ -42,3 +42,27 @@ header {
 .signup a:hover{
     background-color: rgb(216, 216, 216);
 }
+
+.contents-atas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+
+    background-image: url(../asset/backgrounds.jpeg);
+    background-size: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    color:black;
+
+    text-align: center;
+}
+
+.contents-atas-teks{
+    margin-top: 40px;
+}
+
