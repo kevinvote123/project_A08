@@ -66,3 +66,33 @@ header {
     margin-top: 40px;
 }
 
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    padding-bottom: 15px;
+    box-shadow: 0 7px #1b1b1b;
+    
+}
+
+.contact a:hover{
+    border-bottom: 1px solid #e7e7e7;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.foot p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+.contact a{
+    opacity: 0.7;
+    font-size: 13px;
+    padding: 5px 4px 3px 4px;
+    display: inline-block;
+    color: rgb(207, 207, 207);
+    transition: all 0.3s;
+}
