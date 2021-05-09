@@ -65,6 +65,81 @@ header {
     margin-top: 40px;
 }
 
+.contents-tengah{
+    background-color: black;
+    color:white ;
+}
+.contents-tengah-header{
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 60;
+}
+
+.contents-tengah-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contents-tengah-box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-tengah-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-tengah-box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-tengah-box1-gambar-img{
+    width: 275px;
+    height: 350px;
+}
+
+.contents-tengah-box1-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 30;
+}
+
+.contents-tengah-box2-gambar-img{
+    width: 400px;
+    height: 350px;
+}
+
+.contents-tengah-box2-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 30;
+}
+
+.contents-tengah-box3-gambar-img{
+    width: 275px;
+    height: 350px;
+}
+
+.contents-tengah-box3-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 30;
+}
+
 
 footer{
     width: 100%;
