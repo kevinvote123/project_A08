@@ -110,6 +110,7 @@ header {
 .contents-tengah-box1-gambar-img{
     width: 275px;
     height: 350px;
+    margin-left: 10px;
 }
 
 .contents-tengah-box1-text{
@@ -132,6 +133,7 @@ header {
 .contents-tengah-box3-gambar-img{
     width: 275px;
     height: 350px;
+    margin-right: 10px;
 }
 
 .contents-tengah-box3-text{
