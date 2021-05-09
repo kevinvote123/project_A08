@@ -1,15 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-
-a {
-    text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
+    position :fixed;
     width: 100%;
     height: 60px;
     background-color:rgb(235, 235, 235);
@@ -33,7 +33,6 @@ header {
     padding: 0 25px;
     margin: 0 5px;
     color: rgb(128, 127, 127);
-    /* background-color: blueviolet; */
     display: block;
     float: left;
     transition: all 0.5s;
@@ -66,3 +65,38 @@ header {
     margin-top: 40px;
 }
 
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    padding-bottom: 15px;
+    box-shadow: 0 7px #1b1b1b;
+    
+}
+
+.contact a:hover{
+    border-bottom: 1px solid #e7e7e7;
+    /* font-size: 14px; */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.foot p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+/* .contact{
+    border-top: 1px solid #ffffff;
+} */
+
+.contact a{
+    opacity: 0.7;
+    font-size: 13px;
+    padding: 5px 4px 3px 4px;
+    display: inline-block;
+    color: rgb(207, 207, 207);
+    transition: all 0.3s;
+}
