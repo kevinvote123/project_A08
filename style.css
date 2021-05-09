@@ -95,12 +95,34 @@ header {
     align-items: center;
     margin-left: 10px;
     padding: 15px;
+    transition: 5000ms;
+}
+
+.contents-tengah-box1:Hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding: 15px;
+    
+    content: url(hover1.jpeg);
+    transition: 5000ms;
 }
 
 .contents-tengah-box2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 5000ms;
+}
+
+.contents-tengah-box2Hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    content: url(hover2.jpeg);
+    transition: 5000ms;
 }
 
 .contents-tengah-box3{
@@ -109,6 +131,18 @@ header {
     align-items: center;
     margin-right: 10px;
     padding: 15px;
+    transition: 5000ms;
+}
+
+.contents-tengah-box3Hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding: 15px;
+    
+    content: url(hover3.jpeg);
+    transition: 5000ms;
 }
 
 .contents-tengah-box1-gambar-img{
